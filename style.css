@@ -60,6 +60,46 @@ img {
   height: auto;
 }
 
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #004474;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0c2f47;
+}
+
+.btn-secondary {
+  background-color: #02491d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #000904;
+}
+
+
+
 header {
   background-color: transparent;
   background-image: url(img/banner.jpeg);
@@ -73,10 +113,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin: 0 auto;
   max-width: 1200px;
-
 }
 
 nav a {
@@ -96,16 +134,12 @@ nav a:hover {
 .logo {
   height: 60px;
   margin-left: 20px;
-
-
 }
 
 .intro {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 5%;
-
-
 }
 
 nav ul {
@@ -113,7 +147,6 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 nav li {
@@ -126,27 +159,45 @@ nav li {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgb(68 82 148 / 92%));
-
+  background: linear-gradient(0deg, rgb(44 44 44 / 82%), rgb(0 78 149));
 }
 
+.title, .lead {
+
+  color: #fff!important;
+}
 
 .main-content {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-.personal-info {
-  flex: 1;
-  padding: 20px;
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 22%);
+  margin: 2em;
+  padding: 1em;
 }
 
-.skills {
-  flex: 1;
-  padding: 20px;
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.work-experience {
-  flex: 1;
-  padding: 20px;
+.about-section, .info-section {
+  flex: 1; 
+  margin-right: 1em;
 }
+
+.about-section {
+  
+}
+
+.info-section {
+  
+}
+
+
