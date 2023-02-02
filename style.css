@@ -322,3 +322,29 @@ nav li {
 .projecttitle{
   text-align: center;}
 
+  /* Style the footer */
+  footer {
+    background-color: #054d92;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  /* Style the container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Style the social media links */
+  .social-media a {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  /* Style the social media images */
+  .social-media img {
+    width: 40px;
+    height: 40px;
+  }
