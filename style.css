@@ -227,3 +227,39 @@ nav li {
 }
 
 
+
+.skill-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.skill-demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill-item {
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+}
+
+.skill-level {
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-level span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
